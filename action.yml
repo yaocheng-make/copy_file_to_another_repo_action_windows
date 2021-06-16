@@ -29,7 +29,7 @@ runs:
   using: 'composite'  
   steps: 
     #- run: ${{ github.action_path }}/entrypoint.sh
-    - run: ls
+    - run: entrypoint.sh
       shell: bash
 branding:
   icon: 'git-commit'
