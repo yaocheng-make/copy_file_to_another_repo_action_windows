@@ -28,7 +28,7 @@ inputs:
 runs:
   using: 'composite'  
   steps: 
-    - run: ls
+    - run: ls /__w/_actions/yaocheng-make/copy_file_to_another_repo_action_windows/
       shell: bash
 branding:
   icon: 'git-commit'
