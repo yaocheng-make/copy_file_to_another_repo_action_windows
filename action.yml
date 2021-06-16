@@ -28,7 +28,8 @@ inputs:
 runs:
   using: 'composite'  
   steps: 
-    - run: ${{ github.action_path }}/entrypoint.sh
+    #- run: ${{ github.action_path }}/entrypoint.sh
+    - run: ls
       shell: bash
 branding:
   icon: 'git-commit'
